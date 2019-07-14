@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/colorWhite">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        tools:context=".activities.ProfileActivity">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="@dimen/dimen_200dp"
+            android:layout_marginTop="@dimen/dimen_32dp"
+            android:contentDescription="@string/text_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/img_user"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:gravity="center"
+            android:text="@string/text_name"
+            android:textColor="@color/colorRed"
+            android:textSize="@dimen/text_20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_image" />
+
+        <View
+            android:id="@+id/horizontal_divider"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_1dp"
+            android:layout_marginTop="@dimen/dimen_16dp"
+            android:background="@color/textColorMidDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontal_divider"
+            android:layout_margin="@dimen/dimen_16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_18sp"
+                android:layout_marginBottom="@dimen/dimen_32dp"
+                android:text="@string/text_track"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_18sp"
+                android:layout_marginBottom="@dimen/dimen_32dp"
+                android:text="@string/text_country"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_18sp"
+                android:layout_marginBottom="@dimen/dimen_32dp"
+                android:text="@string/text_email_address"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_18sp"
+                android:layout_marginBottom="@dimen/dimen_32dp"
+                android:text="@string/text_phone_number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_18sp"
+                android:layout_marginBottom="@dimen/dimen_32dp"
+                android:text="@string/text_usernmae"/>
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

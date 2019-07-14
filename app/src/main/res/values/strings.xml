@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IdentityApp</string>
+    <string name="text_header_greeting">Welcome to ALC 4.0</string>
+    <string name="text_about_alc">About ALC</string>
+    <string name="text_my_profile">My Profile</string>
+    <string name="text_app_summary">ALC 4, Phase 1</string>
+    <string name="mock_url">www.reach.africa</string>
+    <string name="close_button">close_button</string>
+    <string name="text_image">image</string>
+    <string name="text_name">Emmanuel Akintunde Olanrewaju</string>
+    <string name="text_track">TRACK:   Android</string>
+    <string name="text_country">COUNTRY: Nigeria</string>
+    <string name="text_email_address">EMAIL: akintunde_olanrewaju@yahoo.co.uk</string>
+    <string name="text_phone_number">PHONE NUMBER: +2348137723675</string>
+    <string name="text_usernmae">SLACK USERNAME: SirGoingFar</string>
+</resources>
